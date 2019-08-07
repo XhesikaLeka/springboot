@@ -1,4 +1,4 @@
 FROM openjdk
-COPY target/apigateway-RELEASE.jar apigateway-RELEASE.jar
+COPY target/springboot-RELEASE.jar springboot-RELEASE.jar
 ENTRYPOINT ["java", "-jar", "/springboot-RELEASE.jar"]
 EXPOSE 8080
