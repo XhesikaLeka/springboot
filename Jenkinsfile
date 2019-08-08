@@ -16,8 +16,7 @@ pipeline {
             }
         }
 
-        }
-
+       
         stage('Create artifact copy') {
             steps {
                 sh 'cp target/springboot-*.jar target/springboot-RELEASE.jar'
